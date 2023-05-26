@@ -1,0 +1,102 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello! How can I assist you today?","Greetings! How can I be of assistance to you today?","Hey, how can I help you today?"]
+      },
+      {
+        "tag": "product_inquiries",
+        "patterns": ["Tell me about your clothing products.", "What types of shoes do you offer?"],
+        "responses": ["We offer a wide range of clothing products including dresses, shirts, pants, and more. For shoes, we have sneakers, boots, sandals, and heels in various styles.","Experience the versatility of our clothing line, featuring dresses, shirts, pants, and more. Don't forget to check out our shoe collection, offering sneakers, boots, sandals, and heels in a variety of stylish options.","Explore our wide selection of clothing items, such as dresses, shirts, pants, and more, to find your perfect style. And when it comes to shoes, we have you covered with our range of sneakers, boots, sandals, and heels, designed to suit different tastes.","We offer an extensive range of clothing products, including dresses, shirts, pants, and more, ensuring there's something for everyone. Elevate your footwear collection with our selection of sneakers, boots, sandals, and heels, available in various stylish designs."]
+      },
+      {
+        "tag": "pricing",
+        "patterns": ["How much do your shirts cost?", "What is the price range for your shoes?"],
+        "responses": ["The prices of our shirts vary depending on the style and fabric. Our shoes range from #5000 to #40000, depending on the type and brand.","The prices of our shirts differ based on the style and fabric. Our shoes, on the other hand, span from #5000 to #1000000, depending on the type and brand.","We offer shirts at different prices, depending on the style and fabric. In addition, our shoe collection spans from #5000 to #1000000, varying based on the type and brand."]
+      },
+      {
+        "tag": "sizes",
+        "patterns": ["What sizes are available for your dresses?", "Do you have shoes in size 9?"],
+        "responses": ["Our dresses are available in sizes XS to XL. Regarding shoes, yes, we have size 9 available for most styles.","We have a size range of XS to XL for our dresses. And for shoes, we offer various sizes for most styles.","You can find our dresses in sizes XS through XL. In terms of shoes, we have different sizes for most styles."]
+      },
+      {
+        "tag": "order_placement",
+        "patterns": ["How can I place an order?", "What is your order process?"],
+        "responses": ["To place an order, you can visit our website and browse the products. Once you've selected the items, proceed to the checkout page and follow the instructions to complete your purchase.","Ready to place your order? Start by visiting our website, where you can peruse the different products we offer. After you've decided on your desired items, navigate to the checkout page and meticulously follow the instructions provided to complete your purchase.","If you're interested in ordering, our website is the place to go. Take your time to browse through our collection of products, and once you've made your selections, proceed to the checkout page and carefully follow the instructions to successfully place your order."]
+      },
+      {
+        "tag": "delivery",
+        "patterns": ["How long does the delivery take?", "Do you offer international shipping?"],
+        "responses": ["Delivery times may vary depending on your location. For domestic orders within Lagos, Abuja, and Port Harcourt, shipping typically takes one business day. For other states in the country, it usually takes 2-3 business days. We also offer international shipping to select countries, and the shipping duration for international orders depends on the destination.","The delivery time may differ depending on where you are located. For domestic orders within Lagos, Abuja, and Port Harcourt, the shipping time is usually one business day. For other states in the country, it generally takes 2-3 business days. International shipping is available to select countries, and the delivery duration for international orders depends on the specific destination.","Depending on your location, the delivery times may vary. For domestic orders within Lagos, Abuja, and Port Harcourt, shipping usually takes one business day. In other states across the country, it typically requires 2-3 business days. Additionally, we provide international shipping to specific countries, and the shipping duration for international orders is determined by the destination."]
+      },
+      {
+        "tag": "returns",
+        "patterns": ["What is your return policy?", "Can I return or exchange a product?"],
+        "responses": ["We have a 30-day return policy. If you are unsatisfied with your purchase, you can return or exchange the product within 30 days of receiving it. Please review our return policy on our website for more details.","Our return policy allows you to return or exchange the product within 30 days of receiving it if you are not satisfied with your purchase. You can find more information about our return policy on our website.","If your purchase doesn't meet your expectations, don't worry! We provide a 30-day return policy, allowing you to return or exchange the product within 30 days from the delivery date. For a comprehensive understanding of our return policy, kindly visit our website.","At our store, we want you to be completely happy with your purchase. Hence, we offer a 30-day return policy. If the product fails to satisfy you, you can return or exchange it within 30 days of receiving it. Detailed information regarding our return policy can be found on our website."]
+      },
+      {
+        "tag": "discounts",
+        "patterns": ["Do you offer any discounts?", "Are there any ongoing promotions?"],
+        "responses": ["Yes, we often have seasonal discounts and special promotions. Please visit our website or subscribe to our newsletter to stay updated on the latest offers.","Yes, we have exciting seasonal discounts and special promotions for our customers. To ensure you don't miss out on any of our offers, we encourage you to visit our website frequently or subscribe to our newsletter.","Certainly! We regularly offer seasonal discounts and run special promotions as a way to appreciate our customers. Make sure to visit our website or subscribe to our newsletter to stay informed about our exciting offers."]
+      },
+      {
+        "tag": "out_of_stock",
+        "patterns": ["Is this item out of stock?", "When will you restock this product?"],
+        "responses": ["I apologize, but that item is currently out of stock. We are working to restock it soon. Please check back later or subscribe to our restock notifications."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Thank you!", "Goodbye"],
+        "responses": ["You're welcome! If you have any more questions, feel free to ask. Have a great day!"]
+      },
+        {
+        "tag": "special_offers",
+        "patterns": ["Are there any special offers available?", "Do you have any current promotions?"],
+        "responses": ["Yes, we have some exciting special offers and promotions running right now. Visit our website or check our social media channels to stay updated."]
+      },
+      {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": ["I'm sorry, but I couldn't understand your question. Could you please rephrase it or ask something else?"]     
+      },
+         {
+        "tag": "sizing_help",
+        "patterns": ["How do I choose the right size?", "Can you assist me with sizing?"],
+        "responses": ["We have a size guide available on our website that can help you find the perfect fit. You can also reach out to our customer support team for personalized sizing assistance."]
+      },
+      {
+        "tag": "material_information",
+        "patterns": ["What materials are your clothes made of?", "Can you tell me about the fabric used in your products?"],
+        "responses": ["Our clothing is made from high-quality materials such as cotton, polyester, and blends. Each product's specific fabric information is mentioned in the product description on our website."]
+      },
+      {
+        "tag": "shoe_care",
+        "patterns": ["How should I care for my shoes?", "Do you have any shoe care tips?"],
+        "responses": ["Proper shoe care can extend their lifespan. We recommend cleaning your shoes regularly, avoiding exposure to extreme conditions, and following the manufacturer's instructions. Check our website's shoe care guide for detailed tips."]
+      },
+      {
+        "tag": "bulk_orders",
+        "patterns": ["Do you offer discounts for bulk orders?", "Can I place a bulk order for my business?"],
+        "responses": ["We provide special pricing and discounts for bulk orders. Please reach out to our corporate sales team or customer support for more information on placing bulk orders."]
+      },
+      {
+        "tag": "gift_cards",
+        "patterns": ["Do you offer gift cards?", "Can I purchase a gift card for someone?"],
+        "responses": ["Yes, we offer gift cards that make perfect presents. You can purchase them on our website or at our physical store. Gift cards can be redeemed for any product within the specified value."]
+      },
+      {
+        "tag": "styling_advice",
+        "patterns": ["Can you provide styling advice?", "How can I style this particular item?"],
+        "responses": ["Certainly! Our style experts can provide personalized styling advice. Please describe the item or provide its name, and we'll be happy to guide you on how to style it."]
+      },
+      {
+        "tag": "order_modifications",
+        "patterns": ["Can I modify my order?", "How can I make changes to my existing order?"],
+        "responses": ["If you need to modify your order, please contact our customer support team as soon as possible. They will assist you in making the necessary changes, depending on the order status."]
+      }
+    ] , 
+    "words": [  "hi", "hello", "hey", "tell", "me", "about", "your", "clothing", "products",   "what", "types", "of", "shoes", "do", "you", "offer", "how", "much", "do",    "cost", "is", "the", "price", "range", "for", "sizes", "available", "dresses",    "have", "in", "size", "9", "can", "place", "an", "order", "process", "long",    "does", "the", "delivery", "take", "offer", "international", "shipping",    "return", "policy", "return", "or", "exchange", "product", "discounts", "any",    "ongoing", "promotions", "this", "item", "out", "of", "stock", "when", "will", "restock", "goodbye", "thank", "you", "special", "offers", "gift", "cards",    "styling", "advice", "modify", "my", "existing", "order"] ,
+    "classes" : [ "greeting", "product_inquiries", "pricing", "sizes", "order_placement",    "delivery", "returns", "discounts", "out_of_stock", "goodbye",    "special_offers", "fallback", "sizing_help", "material_information",    "shoe_care", "bulk_orders", "gift_cards", "styling_advice", "order_modifications"] 
+  }
+  

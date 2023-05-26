@@ -1,0 +1,6 @@
+flask
+twilio
+nltk
+numpy
+scikit-learn
+catboost
